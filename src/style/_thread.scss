@@ -1,0 +1,28 @@
+.thread {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  .post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #b8b8b898;
+    padding: 20px;
+    white-space: normal;
+    p {
+      word-break: break-all;
+    }
+    .bin {
+      min-width: 30px;
+      font-size: 1.3rem;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        transform: rotate(-10deg);
+      }
+    }
+  }
+}
